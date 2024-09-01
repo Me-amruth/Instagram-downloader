@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Instagram Downloader</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <h1>Instagram Downloader</h1>
+        <div class="circle"></div>
+        <div class="box">
+            Enter the video url :
+            <div class="input">
+                <input
+                    type="text"
+                    maxlength="70"
+                    id="link"
+                    placeholder="Paste link here.."
+                />
+            </div>
+            <button id="submitBtn">Download</button>
+        </div>
+        <div class="message">
+          <p>
+            This is a beta version of <i>Instagram Reels and Posts downloader</i>. It may occurs some errors and fetching issues, please make sure you have a good internet connection. In this beta version we provide only Reels and Photos. Slide Posts not available yet, but you can Download the first slide of the post using this servies. <i><b>Thanks for using our servies</b></i>
+          </p>
+        </div>
+        <!-- NB message -->
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close-btn">&times;</span>
+                <h2>Download Video</h2>
+                click the three dots in the video controls and press 'Download'
+                to save your files
+                <div class="info">
+                    <img id="icon" />
+                    <i id="username"></i>
+                </div>
+                <div class="media-container"></div>
+                <button id="closePopupBtn">Close</button>
+            </div>
+        </div>
+        <!-- closing of NB message -->
+        <div class="social-icons">
+            <a href="https://www.x.com/amruthh/" title="twitter">
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            </a>
+            <a href="https://instagram.com/_amru.h/" title="instagram">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/amruth-krishna-982732321" title="linkedin">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </a>
+            <a href="https://pin.it/2sE0ubgax" title="pinterest">
+                <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+            </a>
+        </div>
+        <span class="version">Version : 1.0.0</span>
+        <script src="script.js"></script>
+    </body>
+</html>
